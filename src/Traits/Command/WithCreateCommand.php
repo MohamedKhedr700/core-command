@@ -8,7 +8,7 @@ use Illuminate\Support\Pluralizer;
 trait WithCreateCommand
 {
     /**
-     * Execute the console command.
+     * Create the command.
      */
     public function create(): void
     {
