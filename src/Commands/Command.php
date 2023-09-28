@@ -9,4 +9,14 @@ class Command extends IlluminateCommand
 {
     use WithCommandHelper,
         WithCreateCommand;
+
+    /**
+     * The name and signature of the console command.
+     */
+    protected $signature = '';
+
+    /**
+     * The console command description.
+     */
+    protected $description = '';
 }
