@@ -9,16 +9,6 @@ class Command extends IlluminateCommand
     use WithCommandHelper;
 
     /**
-     * The name and signature of the console command.
-     */
-    protected $signature = '';
-
-    /**
-     * The console command description.
-     */
-    protected $description = '';
-
-    /**
      * Execute the console command.
      */
     public function handle(): void
