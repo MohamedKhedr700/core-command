@@ -1,6 +1,6 @@
 <?php
 
-namespace Raid\Core\Command\Traits;
+namespace Raid\Core\Command\Commands;
 
 use Raid\Core\Command\Traits\Command\WithCreateCommand;
 
