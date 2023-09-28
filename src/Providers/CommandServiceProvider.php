@@ -1,6 +1,6 @@
 <?php
 
-namespace Raid\Core\Event\Providers;
+namespace Raid\Core\Command\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
