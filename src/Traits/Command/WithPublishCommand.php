@@ -7,7 +7,7 @@ trait WithPublishCommand
     /**
      * Publish the command.
      */
-    public function publish(string $tag): void
+    public function publishCommand(string $tag): void
     {
         $this->call('vendor:publish', [
             '--tag' => $tag,

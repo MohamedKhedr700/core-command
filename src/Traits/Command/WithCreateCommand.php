@@ -10,7 +10,7 @@ trait WithCreateCommand
     /**
      * Create the command.
      */
-    public function create(): void
+    public function createCommand(): void
     {
         $path = $this->getSourceFilePath();
 
