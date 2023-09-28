@@ -17,4 +17,11 @@ class Command extends IlluminateCommand
      * The console command description.
      */
     protected $description = '';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle(): void
+    {
+    }
 }
