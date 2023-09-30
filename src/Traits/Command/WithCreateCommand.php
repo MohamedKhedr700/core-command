@@ -84,7 +84,16 @@ trait WithCreateCommand
      */
     public function getClassName(): string
     {
-        return ucwords(Pluralizer::singular($this->argument('classname', '')));
+        return ucwords($this->argument('classname', ''));
+    }
+
+
+    /**
+     * Return the Singular Capitalize Name.
+     */
+    public function getSingularClassName(): string
+    {
+        return Pluralizer::singular($this->getClassName());
     }
 
     /**
